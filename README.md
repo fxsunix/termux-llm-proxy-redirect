@@ -9,7 +9,7 @@
 1. Install Termux from their official site https://termux.dev/en/
 2. When opened, type/copy this command and wait for the packages to download
 ```bash
-pkg update && pkg install git nodejs
+pkg update && pkg install git nodejs nano
 ```
 3. Copy and paste the command into the terminal:
 ```bash
