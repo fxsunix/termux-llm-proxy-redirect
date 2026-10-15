@@ -28,3 +28,26 @@ If you don't know to use nano, check out this 2 minute video https://www.youtube
 ---
 1. "Unable to connect" Some browsers will block any kind of local port scanning, some will ask for a popup first.
 2. "Model can't function without reasoning or something" Swap a model or set reasoning_effort to "minimal". 
+
+### config.json Quick Guide  
+```
+{
+  "provider_url": "https://composite.lucidity.sh",
+  "reasoning_effort": "none",
+  "overwrite_samplers": false,
+  "sampler_settings": { ... }
+}
+```
+  
+### Main Options
+  
+• `provider_url`: The upstream OpenAI-Compatible API backend
+• `reasoning_effort`: Controls thinking tokens. Set to "none" to force reasoning off, or "low" / "medium" if a model requires it.
+• `overwrite_samplers`:
+  • false (default): Only applies your values if JanitorAI didn't send them.
+  • true: Forcefully overrides JanitorAI with your configured values.
+  
+### Sampler Settings
+- Leave any option as null to ignore it and let JanitorAI / the provider handle it. Replace `null` with a number to use it.
+- Since most of the samplers are already available on the frontend, here's a guide for just min_p:
+`min_p (0.0 – 1.0):` Dynamic cutoff based on top token confidence. 0.05 is great for cutting out gibberish.
