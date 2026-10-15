@@ -50,4 +50,4 @@ If you don't know to use nano, check out this 2 minute video https://www.youtube
 ### Sampler Settings
 - Leave any option as null to ignore it and let JanitorAI / the provider handle it. Replace `null` with a number to use it.
 - Since most of the samplers are already available on the frontend, here's a guide for just min_p:
-`min_p (0.0 – 1.0):` Dynamic cutoff based on top token confidence. 0.05 is great for cutting out gibberish.
+- `min_p (0.0 – 1.0):` Dynamic cutoff based on top token confidence. 0.05 is great for cutting out gibberish.
