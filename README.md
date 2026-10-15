@@ -41,11 +41,11 @@ If you don't know to use nano, check out this 2 minute video https://www.youtube
   
 ### Main Options
   
-• `provider_url`: The upstream OpenAI-Compatible API backend
-• `reasoning_effort`: Controls thinking tokens. Set to "none" to force reasoning off, or "low" / "medium" if a model requires it.
-• `overwrite_samplers`:
-  • false (default): Only applies your values if JanitorAI didn't send them.
-  • true: Forcefully overrides JanitorAI with your configured values.
+- `provider_url`: The upstream OpenAI-Compatible API backend
+- `reasoning_effort`: Controls thinking tokens. Set to "none" to force reasoning off, or "low" / "medium" if a model requires it.
+- `overwrite_samplers`:
+  - ``false`` (default): Only applies your values if JanitorAI didn't send them.
+  - ``true``: Forcefully overrides JanitorAI with your configured values.
   
 ### Sampler Settings
 - Leave any option as null to ignore it and let JanitorAI / the provider handle it. Replace `null` with a number to use it.
