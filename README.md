@@ -1,11 +1,11 @@
 # LLM Redirector
-</hr>
+---
 <p>Redirect your calls through a middleman running locally on your <b>android</b> device, stripping unnecessary headers and ability to change sampler settings on your own.</p>
 
 <p>An userscript version specifically for janitorai.com will come out later eventually.</p>
 
 ## Tutorial
-</hr>
+---
 1. Install Termux from their official site https://termux.dev/en/
 2. When opened, type/copy this command and wait for the packages to download
 ```bash
@@ -24,6 +24,6 @@ If you don't know to use nano, check out this 2 minute video https://www.youtube
 7. Enjoy cheaper and faster roleplaying!
 
 ## Troubleshooting
-</hr>
+---
 1. "Unable to connect" Some browsers will block any kind of local port scanning, some will ask for a popup first.
 2. "Model can't function without reasoning or something" Swap a model or set reasoning_effort to "minimal". 
