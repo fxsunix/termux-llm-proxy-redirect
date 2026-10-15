@@ -14,7 +14,7 @@ pkg update && pkg install git nodejs nano
 3. Copy and paste the command into the terminal:
 ```bash
 git clone https://github.com/fxsunix/termux-llm-proxy-redirect/
-cd ./src/
+cd ./termux-llm-proxy-redirect/src/
 ```
 4. To change the provider, reasoning effort and sampler settings run `nano ./config.json` </br>
 Provider links should just be their plain urls like: `https://composite.lucidity.sh, https://openrouter.ai, https://nanogpt.com`  </br>
