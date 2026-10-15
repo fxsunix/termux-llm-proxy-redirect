@@ -1,5 +1,5 @@
 {
-  "provider_url": "CHANGE_THIS", // example: https://composite.lucidity.sh, https://openrouter.ai, https://nanogpt.com
+  "provider_url": "CHANGE_THIS",
   "reasoning_effort": "none",
   "overwrite_samplers": false,
   "sampler_settings": {
